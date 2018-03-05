@@ -9,7 +9,7 @@ before_install:
 - sleep 3
   # Updating NPM to relevant version >= 3 on Node.JS LTS
 - npm i -g npm@^3
-- npm i -g brfs
+- npm install -g brfs
 script:
 - npm run build
 sudo: required
